@@ -69,12 +69,15 @@ p{
         color:333;
     }
     .bg-dark{
-        background: #ccc;
+        background: #333;
         color: #fff;
     }
     .bg-primary{
-        background:#333;
-        color: #fff;
+        background:var(--lead-color);
+        color: #333;
+    }
+    .clr{
+        clear: both;
     }
     
     /* Navbar */
@@ -154,4 +157,23 @@ p{
     }
     #home-info .info-content p{
         padding-bottom: 30px; 
+    }
+
+    /* Features */
+    .box{
+        float:left;
+        width:33.3%;
+        padding:50px;
+        text-align: center;
+    }
+    .box i{
+        margin-bottom:30px;
+    }
+
+    /* Footer */
+    #main-footer{
+        text-align: center;
+        background: #444;
+        padding: 20px;
+        color:#fff;
     }
