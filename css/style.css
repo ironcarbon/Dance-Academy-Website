@@ -79,6 +79,14 @@ p{
     .clr{
         clear: both;
     }
+    .l-heading{
+        font-size: 40px;
+        line-height: 1em;
+    }
+    /* Padding */
+    .py-1{padding: 10px 0;}
+    .py-2{padding:20px 0;}
+    .py-3{padding:30px 0;}
     
     /* Navbar */
     #navbar{
@@ -168,6 +176,27 @@ p{
     }
     .box i{
         margin-bottom:30px;
+    }
+
+    /* About Info */
+    #about-info .info-right{
+        float:right;
+        width:50%;
+        min-height: 100%;
+    }
+
+    #about-info .info-right img{
+        display: block;
+        margin: 20px auto;
+        width: 80%;
+        border-radius: 50%;
+    }
+
+    #about-info .info-left{
+        float: left;
+        width:50%;
+        min-height: 100%;
+        overflow: hidden;
     }
 
     /* Footer */
